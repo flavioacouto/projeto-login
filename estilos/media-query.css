@@ -16,7 +16,7 @@ Grandes telas: acima de 1200px
     }
 
     section#login {
-        width: 80vw;   
+        width: 85vw;   
     }
 
     section#login > div#imagem {
@@ -38,9 +38,6 @@ Grandes telas: acima de 1200px
         font-size: 1.5em;
     }
 
-    div#formulario > form {
-        font-size: 1em;
-    }
 }
 
 @media screen and (min-width: 992px) {
