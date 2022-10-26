@@ -31,16 +31,16 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     overflow: hidden; /* tudo que estiver fora da borda será escondido(para aparecer o raio na parte superior da foto) */
     background-color: white;
     width: 250px;
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.454);
-
+    transform: translate(-50%, -50%);
     transition: width .3s, height .3s;
     transition-timing-function: ease;
+    
 }
 
 section#login > div#imagem {
@@ -91,9 +91,9 @@ div.campo > input {
     font-size: 1em;
     width: calc(100% - 44.5px);
     height: 100%;
-    transform: translateY(-7px);
     border: 0px;
-    border-radius: 8px; 
+    border-radius: 8px;
+    transform: translateY(-7px);
 }
 
 div.campo > input:focus-within {
