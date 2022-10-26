@@ -57,10 +57,13 @@ section#login > div#formulario {
 
 div#formulario > h1 {
     text-align: center;
+
+
 }
 
 div#formulario > p {
     font-size: 0.8em;
+    padding: 10px;
 }
 
 form > div.campo {
@@ -81,17 +84,17 @@ div.campo > span {
     color: white;
     font-size: 2em;
     width: 40px;
-    padding: 5;
+    padding: 5px;
 }
 
 div.campo > input {
     background-color: #6cd3cf;
     font-size: 1em;
-    width: calc(100% - 44.5px);
+    width: calc(100% - 44.8px);
     height: 100%;
     border: 0px;
     border-radius: 8px;
-    transform: translateY(-7px);
+    transform: translateY(-13px);
 }
 
 div.campo > input:focus-within {
